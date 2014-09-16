@@ -1,0 +1,179 @@
+/***************************************
+		   		PORTFOLIO
+***************************************/
+
+/*********************************
+			  HEADER
+*********************************/
+
+body {
+	background-color: #ffffdd;
+	color: navy;
+	padding-top: 10px;
+	font-family: arial, calibri, candara, sans-serif;
+	overflow: hidden;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 0.7em;
+	padding-top: 3px;
+}
+
+/*********************************
+		   NAVIGATION
+*********************************/
+
+div.navigation {
+	display: -webkit-flex;
+	background-color: navy;
+	margin-top: 10px;
+	padding: 20px;
+}
+
+ul.flex {
+	width: 100%;
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	color: #ffffdd;
+	font-size: 0.8em;
+}
+
+a.nav {
+	color: #ffffdd;
+	text-decoration: none;
+}
+
+li.selected {
+	color: #fff;
+	cursor: default;
+}
+
+/*********************************
+		   	   BODY
+*********************************/
+
+h2.heading{
+	text-align: left;
+	font-size: 1.6em;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+p.writeup {
+	padding: 10px 4px 4px 7px;  
+}
+
+.project {
+	padding-left: 10px;
+	padding-top: 15px;
+}
+
+li {
+	font-weight: bold;
+}
+
+p a {
+	color: red;
+}
+
+p.caption{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+a.color {
+	text-decoration: none;
+}
+
+a.color:hover {
+	text-decoration: underline;
+}
+
+div#slide_1 {
+	padding-bottom: 30px;
+}
+
+div#slide_2 {
+	padding-bottom: 30px;
+}
+
+/*********************************
+		   	  FOOTER
+*********************************/
+
+p.top {
+	margin-top: 10px;
+}
+
+h2.top {
+	margin-top: -10px;
+}
+
+img.logo {
+	padding: 0;
+	margin-bottom: -20px;
+}
+
+p.centralize {
+	text-align: center;
+}
+
+p#footer {
+	text-align: center;
+	background-color: navy;
+	color: #ffffdd;
+	margin-top: 30px;
+	font-size: 0.6em;
+	height: 12px;
+	padding-top: 5px;
+}
+
+/***************************************
+		   		CONTACT
+***************************************/
+
+p.project {
+	font-weight: bold;
+}
+
+p.contact {
+	padding-left: 17px;
+	padding-top: 15px;
+}
+
+p.contact a {
+	color: inherit;
+	text-decoration: none;
+}
+
+p.phone a {
+	display: inline-block;
+	padding: 0 0 0 5px;
+}
+
+p.phone::before {
+	content: url('../images/phone.jpg');
+	position: relative;
+	bottom: -5px;
+}
+
+p.mail a {
+	display: inline-block;
+	padding: 0 0 0 5px;
+}
+
+p.mail::before {
+	content: url('../images/email.jpg');
+	position: relative;
+	bottom: -5px;
+}

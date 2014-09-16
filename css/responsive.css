@@ -1,0 +1,87 @@
+@media screen and (min-width: 289px) {
+	
+	body {
+		overflow: visible;
+	}
+
+	div.navigation {
+		display: none;
+	}
+
+	h2 {
+		padding-bottom: 30px;
+	}
+
+	h2.heading {
+		background-color: navy;
+		color: #ffffdd;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	p.top {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 462px) {
+
+	h1, h2 {
+		text-align: left;
+		padding-left: 10px;
+	}
+}
+
+@media screen and (min-width: 620px) {
+	
+	div#slide_1 {
+		padding-bottom: 10px;
+	}
+
+	div#slide_2 {
+		padding-bottom: 10px;
+	}
+
+	li.project {
+		padding-top: 9px;
+	}
+
+	h1 {
+		font-size: 1.6em;
+	}
+
+	h2.heading {
+		width: 15%;
+		text-align: left;
+		font-size: 1.2em;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	h2.first {
+		margin-top: -15px;
+	}
+
+	p.writeup {
+		padding-bottom: 0;
+	}
+
+	p.project {
+		padding-top: 5px;
+	}
+
+	p.contact {
+		padding-top: 0;
+	}
+
+	p.top {
+		display: none;	
+	}
+
+	p.caption {
+		padding-top: 5px;
+		max-width: 100%;
+	}
+}
