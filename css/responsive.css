@@ -1,87 +1,86 @@
-@media screen and (min-width: 289px) {
-	
+@media screen and (min-width: 400px) {
+
 	body {
-		overflow: visible;
+		background-image: url('../images/bgimage.jpg');
+		overflow: hidden;
 	}
 
 	div.navigation {
-		display: none;
+		margin-top: -1px;
+	}
+
+	div.all {
+		background-color: rgba(255, 255, 255, .7);
+		max-height: 300px;
+		width: 90%;
+		overflow: auto;
+		color: #555;
 	}
 
 	h2 {
 		padding-bottom: 30px;
 	}
 
+	h1, h2 {
+		text-align: left;
+	}
+
 	h2.heading {
-		background-color: navy;
+		width: 100%;
 		color: #ffffdd;
 		text-align: center;
 		padding-bottom: 10px;
 	}
 
+	img.pix {
+		position: relative;
+		float: left;
+		padding-bottom: 30px;
+	}
+
+	div.image {
+		margin-top: 10px;
+		margin-left: 10px;
+		width: 200px;
+		height: 150px;
+		position: relative;
+	}
+
+	div.google {
+		background-image: url('../images/googleClone_1.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	div.jobseeker {
+		background-image: url('../images/job_seeker_1.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	div.game {
+		background-image: url('../images/hotOrCold_1.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
+	div.shoppinglist {
+		background-image: url('../images/shopping_list_1.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
 	p.top {
 		display: none;
 	}
-}
 
-@media screen and (min-width: 462px) {
-
-	h1, h2 {
-		text-align: left;
-		padding-left: 10px;
+	p.margin {
+		margin-top: -40px;
 	}
 }
 
-@media screen and (min-width: 620px) {
-	
-	div#slide_1 {
-		padding-bottom: 10px;
-	}
-
-	div#slide_2 {
-		padding-bottom: 10px;
-	}
-
-	li.project {
-		padding-top: 9px;
-	}
-
-	h1 {
-		font-size: 1.6em;
-	}
-
-	h2.heading {
-		width: 15%;
-		text-align: left;
-		font-size: 1.2em;
-		padding-top: 2px;
-		padding-bottom: 2px;
-		margin-bottom: 5px;
-		font-weight: bold;
-	}
-
-	h2.first {
-		margin-top: -15px;
-	}
-
-	p.writeup {
-		padding-bottom: 0;
-	}
-
-	p.project {
-		padding-top: 5px;
-	}
-
-	p.contact {
-		padding-top: 0;
-	}
-
-	p.top {
-		display: none;	
-	}
-
-	p.caption {
-		padding-top: 5px;
-		max-width: 100%;
+@media screen and (min-width: 700px) {
+	div.all {
+		background-color: red;
 	}
 }

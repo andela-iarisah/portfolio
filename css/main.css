@@ -7,11 +7,17 @@
 *********************************/
 
 body {
-	background-color: #ffffdd;
-	color: navy;
-	padding-top: 10px;
+	background-color: black;
+	/*background-repeat: no-repeat;*/
+	background-size: 100% 100%;	
+	color: #cccccc;
+	padding: 10px 20px;
 	font-family: arial, calibri, candara, sans-serif;
-	overflow: hidden;
+	/*overflow: hidden;*/
+}
+
+header {
+	color: #d58;
 }
 
 h1, h2 {
@@ -26,7 +32,13 @@ h1 {
 h2 {
 	font-size: 0.7em;
 	padding-top: 3px;
+	padding-bottom: 20px;
 }
+
+div.align {
+	text-align: center;
+}
+
 
 /*********************************
 		   NAVIGATION
@@ -34,7 +46,7 @@ h2 {
 
 div.navigation {
 	display: -webkit-flex;
-	background-color: navy;
+	background-color: #d58;
 	margin-top: 10px;
 	padding: 20px;
 }
@@ -48,8 +60,12 @@ ul.flex {
 }
 
 a.nav {
-	color: #ffffdd;
+	color: #fff;
 	text-decoration: none;
+}
+
+a.nav:hover {
+	color: purple;
 }
 
 li.selected {
@@ -61,11 +77,16 @@ li.selected {
 		   	   BODY
 *********************************/
 
+div.all {
+	margin: 0 auto;
+}
+
 h2.heading{
 	text-align: left;
 	font-size: 1.6em;
-	padding-top: 10px;
+	padding-top: 20px;
 	font-weight: bold;
+	color: #d58;
 }
 
 p.writeup {
@@ -75,6 +96,7 @@ p.writeup {
 .project {
 	padding-left: 10px;
 	padding-top: 15px;
+	color: #d58;
 }
 
 li {
@@ -82,21 +104,24 @@ li {
 }
 
 p a {
-	color: red;
+	color: #d58;
 }
 
 p.caption{
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 10px;
+	line-height: 1.3em;
 }
 
 a.color {
 	text-decoration: none;
+	/*color: orange;*/
 }
 
 a.color:hover {
-	text-decoration: underline;
+	background-color: white;
+	color: black;
 }
 
 div#slide_1 {
@@ -107,36 +132,6 @@ div#slide_2 {
 	padding-bottom: 30px;
 }
 
-/*********************************
-		   	  FOOTER
-*********************************/
-
-p.top {
-	margin-top: 10px;
-}
-
-h2.top {
-	margin-top: -10px;
-}
-
-img.logo {
-	padding: 0;
-	margin-bottom: -20px;
-}
-
-p.centralize {
-	text-align: center;
-}
-
-p#footer {
-	text-align: center;
-	background-color: navy;
-	color: #ffffdd;
-	margin-top: 30px;
-	font-size: 0.6em;
-	height: 12px;
-	padding-top: 5px;
-}
 
 /***************************************
 		   		CONTACT
@@ -176,4 +171,45 @@ p.mail::before {
 	content: url('../images/email.jpg');
 	position: relative;
 	bottom: -5px;
+}
+
+/*********************************
+		   	  FOOTER
+*********************************/
+
+p.top {
+	margin-top: 10px;
+}
+
+h2.top {
+	margin-top: -35px;
+}
+
+img.logo {
+	padding: 0;
+	margin-bottom: -20px;
+}
+
+p.centralize {
+	text-align: center;
+}
+
+p#footer {
+	text-align: center;
+	background-color: #d58;
+	color: black;
+	margin-top: 30px;
+	font-size: 0.6em;
+	height: 12px;
+	padding-top: 5px;
+}
+
+
+
+/***************************************
+		   		HIDDEN
+***************************************/
+
+img.float {
+	display: none;
 }
