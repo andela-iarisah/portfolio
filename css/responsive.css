@@ -1,41 +1,74 @@
-@media screen and (min-width: 289px) {
-	
+@media screen and (min-width: 400px) {
+
 	body {
-		overflow: visible;
+		background-image: url('../images/bgimage.jpg');
+		overflow: hidden;
 	}
 
 	div.navigation {
-		display: none;
+		margin-top: -1px;
+	}
+
+	div.all {
+		background-color: rgba(255, 255, 255, .7);
+		max-height: 300px;
+		width: 90%;
+		overflow: auto;
+		color: #555;
 	}
 
 	h2 {
 		padding-bottom: 30px;
 	}
 
+	h1, h2 {
+		text-align: left;
+	}
+
 	h2.heading {
-		background-color: navy;
+		width: 100%;
 		color: #ffffdd;
 		text-align: center;
 		padding-bottom: 10px;
 	}
 
+	img.pix {
+		position: relative;
+		float: left;
+		padding-bottom: 30px;
+	}
+}
+
+/*/*//**@media screen and (min-width: 450px) {
+
+	body {
+		background-color: red;
+	}
+
+
+	div.center {
+		text-align: center;
+	}
+
+	
 	p.top {
-		display: none;
+		display: block;
+		padding-bottom: 10px;
 	}
-}
 
-@media screen and (min-width: 462px) {
-
-	h1, h2 {
-		text-align: left;
-		padding-left: 10px;
+	div.resize {
+		padding: 20px;
 	}
-}
 
-@media screen and (min-width: 620px) {
+	div.navigation {
+		display: inline-block;
+		width: 60%;
+		margin-top: 0;
+	}
 	
 	div#slide_1 {
 		padding-bottom: 10px;
+		padding-top: 20px;
 	}
 
 	div#slide_2 {
@@ -51,7 +84,7 @@
 	}
 
 	h2.heading {
-		width: 15%;
+		width: 20%;
 		text-align: left;
 		font-size: 1.2em;
 		padding-top: 2px;
@@ -76,12 +109,24 @@
 		padding-top: 0;
 	}
 
-	p.top {
-		display: none;	
-	}
-
 	p.caption {
 		padding-top: 5px;
-		max-width: 100%;
+		max-width: 500px;
+	}
+
+	footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+
+	img.float {
+		display: block;
+	}
+}*/
+
+@media screen and (min-width: 700px) {
+	div.all {
+		background-color: red;
 	}
 }
