@@ -83,6 +83,12 @@
 		background-size: 100%;
 	}
 
+	div.foodiesAngular {
+		background-image: url('../images/foodies_1.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
 	p.top {
 		display: none;
 	}
