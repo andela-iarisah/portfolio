@@ -89,6 +89,12 @@
 		background-size: 100%;
 	}
 
+	div.store-manager {
+		background-image: url('../images/store-manager_1.png');
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+
 	p.top {
 		display: none;
 	}
@@ -143,12 +149,12 @@
 
 	div.jobseeker {
 		position: relative;
-		left: 218px;
+		left: 220px;
 	}
 
 	div.game {
 		position: absolute;
-		left: 440px;
+		left: 460px;
 	}
 
 	div.shoppinglist {
@@ -161,6 +167,16 @@
 		left: 220px;
 	}
 
+	div.foodiesAngular {
+		position: relative;
+		right: -440px;
+	}
+
+	div.store-manager {
+		position: relative;
+		margin-top: -10px;
+	}
+
 	ul.flex {
 		display: none;
 	}
@@ -168,6 +184,11 @@
 	p.caption {
 		margin: 5px;
 		width: 50%;
+	}
+
+	p.angular {
+		position: relative;
+		top: -120px;
 	}
 
 	div.project_1 {
@@ -185,6 +206,10 @@
 
 	div.project_4 {
 		height: 150px;
+	}
+
+	div.project_7 {
+		margin-top: -100px;
 	}
 
 	div#slide_1 {
