@@ -89,12 +89,6 @@
 		background-size: 100%;
 	}
 
-	div.store-manager {
-		background-image: url('../images/store-manager_1.png');
-		background-repeat: no-repeat;
-		background-size: 100%;
-	}
-
 	p.top {
 		display: none;
 	}
@@ -172,11 +166,6 @@
 		right: -440px;
 	}
 
-	div.store-manager {
-		position: relative;
-		margin-top: -10px;
-	}
-
 	ul.flex {
 		display: none;
 	}
@@ -206,10 +195,6 @@
 
 	div.project_4 {
 		height: 150px;
-	}
-
-	div.project_7 {
-		margin-top: -100px;
 	}
 
 	div#slide_1 {
